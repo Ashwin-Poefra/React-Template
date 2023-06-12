@@ -1,4 +1,2 @@
-export * from './Dashboard';
-export * from './Layout';
-export * from './NotFound';
-export * from './SignIn';
+export * from './common';
+export * from './view';
