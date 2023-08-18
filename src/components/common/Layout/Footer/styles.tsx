@@ -14,6 +14,6 @@ export const Footer = styled.div`
 `;
 
 export const Content = styled.div`
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 20px;
+  line-height: 28px;
 `;
