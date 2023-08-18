@@ -1,8 +1,28 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
-import tsconfigPaths from 'vite-tsconfig-paths';
+import tsConfigPaths from 'vite-tsconfig-paths';
+import checker from 'vite-plugin-checker';
+import svgrPlugin from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tsconfigPaths()],
+  plugins: [
+    react(),
+    checker({
+      overlay: { initialIsOpen: false },
+      typescript: true,
+      eslint: {
+        lintCommand: 'eslint "./src/**/*.{ts,tsx}"',
+      },
+    }),
+    svgrPlugin(),
+    tsConfigPaths(),
+  ],
+  build: {
+    outDir: 'build',
+  },
+  server: {
+    port: 3000,
+    proxy: {},
+  },
 });

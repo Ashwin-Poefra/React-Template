@@ -7,9 +7,7 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
+    "moduleResolution": "node",
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
@@ -26,6 +24,5 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "src"
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"]
 }
