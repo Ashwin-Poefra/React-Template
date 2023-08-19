@@ -1,6 +1,7 @@
 import React from 'react';
 import { FooterSection } from './Footer';
 import { HeaderSection } from './Header';
+import { LayoutContainer, ContentSection } from './styles';
 
 interface LayoutProps {
   children?: React.ReactNode;
@@ -8,11 +9,11 @@ interface LayoutProps {
 
 export const LayoutComponent: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="bg-blue-200 w-full absolute top-0 bottom-0">
+    <LayoutContainer>
       <HeaderSection />
-      <div className="pt-16 pb-16 h-full">{children}</div>
+      <ContentSection>{children}</ContentSection>
       <FooterSection />
-    </div>
+    </LayoutContainer>
   );
 };
 
