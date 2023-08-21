@@ -2,7 +2,7 @@ import { PATH } from 'consts';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const NotFoundComponent: React.FC = () => {
+export const NotFoundView: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       <div className="text-indigo-500 font-bold text-7xl">404</div>

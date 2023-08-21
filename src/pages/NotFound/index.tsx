@@ -1,6 +1,6 @@
-import { NotFoundContainer } from 'containers';
+import { NotFoundView } from 'components';
 import React from 'react';
 
 export const NotFoundPage: React.FC = () => {
-  return <NotFoundContainer />;
+  return <NotFoundView />;
 };

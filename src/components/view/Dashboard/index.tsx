@@ -1,9 +1,10 @@
 import React from 'react';
+import { Container, Content } from './styles';
 
-export const DashboardComponent: React.FC = () => {
+export const DashboardView: React.FC = () => {
   return (
-    <div className="w-full h-full flex items-center justify-center">
-      <h1>Welcome to Dashboard!!!</h1>
-    </div>
+    <Container>
+      <Content>Welcome to Dashboard!!!</Content>
+    </Container>
   );
 };
