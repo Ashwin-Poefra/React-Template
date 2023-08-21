@@ -13,4 +13,5 @@ export const ContentSection = styled.div`
   padding-top: 64px;
   padding-bottom: 64px;
   height: 100%;
+  box-sizing: border-box;
 `;
