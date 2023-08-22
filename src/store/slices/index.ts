@@ -1,7 +1,7 @@
-import meSlice, { meActions } from './me.slice';
+import todosSlice, { todosActions } from './todos.slice';
 
-export const Slices = { me: meSlice.reducer };
+export const Slices = { todos: todosSlice.reducer };
 
 export const Actions = {
-  me: meActions,
+  todos: todosActions,
 };

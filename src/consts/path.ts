@@ -1,3 +1,4 @@
-export const NOTFOUND = '*';
+export const NOT_FOUND = '*';
 export const DASHBOARD = '/';
-export const SIGNIN = '/signin';
+export const TODOS_LIST = '/todos';
+export const USERS_LIST = '/users';
