@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 export const Header = styled.div`
   display: flex;
-  flex-direction: column;
-
-  padding: 16px;
-  width: 100%;
+  align-items: center;
+  padding-left: 16px;
 
   position: fixed;
   top: 0px;
+  height: 60px;
+  width: 100%;
 
   background-color: rgb(67 56 202);
 `;

@@ -9,7 +9,7 @@ interface RequestData {
 
 export const request = async ({ url, method, data, ...rest }: RequestData) => {
   try {
-    const responseData = await axios({
+    const response = await axios({
       url,
       method,
       data,
@@ -20,7 +20,7 @@ export const request = async ({ url, method, data, ...rest }: RequestData) => {
       },
     });
 
-    return responseData.data;
+    return response;
   } catch (err) {
     return null;
   }

@@ -10,7 +10,9 @@ function* getTodosListRequest() {
       url: `https://jsonplaceholder.typicode.com/todos`,
       method: 'GET',
     });
+    console.log('response:', response);
     const responseData = response.data;
+    console.log('responseData:', responseData);
 
     yield put(
       Actions.todos.getTodosListSuccess({

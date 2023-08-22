@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LayoutContainer = styled.div`
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0px;
   bottom: 0px;
 
@@ -10,7 +10,8 @@ export const LayoutContainer = styled.div`
 `;
 
 export const ContentSection = styled.div`
-  padding-top: 64px;
-  padding-bottom: 64px;
-  height: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: calc(100% - 120px);
+  overflow: auto;
 `;

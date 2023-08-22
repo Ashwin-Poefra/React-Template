@@ -2,12 +2,14 @@ import styled from 'styled-components';
 
 export const Footer = styled.div`
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding-left: 16px;
 
   width: 100%;
   position: fixed;
   bottom: 0px;
+  height: 60px;
 
   color: rgb(243 244 246);
   background-color: rgb(31 41 55);
