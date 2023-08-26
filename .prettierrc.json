@@ -23,7 +23,7 @@
           "^contexts",
           "^hooks",
           "^config",
-          "^constants",
+          "^consts",
           "^utils"
         ],
         "emptyLineBetweenGroups": true
