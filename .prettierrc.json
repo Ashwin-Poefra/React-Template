@@ -29,5 +29,20 @@
         "emptyLineBetweenGroups": true
       }
     }
-  ]
+  ],
+  "importOrder": [
+    "@/(.*)",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]",
+    "^routes",
+    "^pages",
+    "^controllers",
+    "^components",
+    "^contexts",
+    "^hooks",
+    "^config",
+    "^consts",
+    "^utils"
+  ],
+  "importOrderSeparation": true
 }
