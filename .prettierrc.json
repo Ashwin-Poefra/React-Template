@@ -8,28 +8,6 @@
   "trailingComma": "es5",
   "bracketSpacing": true,
   "arrowParens": "always",
-  "overrides": [
-    {
-      "files": "*.js|*.jsx|*.ts|*.tsx",
-      "options": {
-        "importOrder": [
-          "@/(.*)",
-          "<THIRD_PARTY_MODULES>",
-          "^[./]",
-          "^routes",
-          "^pages",
-          "^controllers",
-          "^components",
-          "^contexts",
-          "^hooks",
-          "^config",
-          "^consts",
-          "^utils"
-        ],
-        "emptyLineBetweenGroups": true
-      }
-    }
-  ],
   "importOrder": [
     "@/(.*)",
     "<THIRD_PARTY_MODULES>",
@@ -44,5 +22,6 @@
     "^consts",
     "^utils"
   ],
-  "importOrderSeparation": true
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }

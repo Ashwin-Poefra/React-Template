@@ -1,8 +1,10 @@
 import ReactDOM from 'react-dom/client';
+
 import './assets/styles/index.css';
+
 import { App } from './App';
-import reportWebVitals from './reportWebVitals';
 import '@radix-ui/themes/styles.css';
+import reportWebVitals from './reportWebVitals';
 
 // create react node
 const root = ReactDOM.createRoot(
