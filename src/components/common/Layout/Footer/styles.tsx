@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Footer = styled.div`
+export const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ export const Footer = styled.div`
   background-color: rgb(31 41 55);
 `;
 
-export const Content = styled.div`
+export const Content = styled.span`
   font-size: 20px;
   line-height: 28px;
 `;

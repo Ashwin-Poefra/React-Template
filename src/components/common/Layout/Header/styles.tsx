@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const Header = styled.div`
+export const Header = styled.header`
   display: flex;
   align-items: center;
   padding-left: 16px;
