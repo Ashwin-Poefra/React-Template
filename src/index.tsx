@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom/client';
 import { App } from './App';
-import '@radix-ui/themes/styles.css';
 import './assets/styles/index.css';
 import reportWebVitals from './reportWebVitals';
 
